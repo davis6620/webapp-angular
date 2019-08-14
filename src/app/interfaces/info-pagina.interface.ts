@@ -8,5 +8,12 @@ export interface InfoPagina {
   instagram?: string;
   twitter?: string;
   tumblr?: string;
-  equipo_trabajo?: any[];
+  equipo_trabajo?: InfoEquipo[];
+}
+
+export interface InfoEquipo {
+  url?: string;
+  nombre?: string;
+  frase?: string;
+  subtitulo?: string;
 }
