@@ -16,8 +16,6 @@ export class ProductosService {
   }
 
   private cargarProductos() {
-
-    // tslint:disable-next-line:no-unused-expression
     return new Promise (( resolve, reject ) => {
       this.http.get('https://resistencias-79d56.firebaseio.com/productos_idx.json')
       .subscribe(  (resp: Producto[]) => {

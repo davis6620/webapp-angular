@@ -47,3 +47,9 @@ svg rect{
     -webkit-animation-name: fadeIn;
     animation-name: fadeIn;
   }
+
+  .responsivewap {
+    width: 25%;
+    height: auto;
+    align-items: center;
+  }

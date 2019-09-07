@@ -16,4 +16,6 @@ export interface InfoEquipo {
   nombre?: string;
   frase?: string;
   subtitulo?: string;
+  numero?: string;
+  telefono?: string;
 }

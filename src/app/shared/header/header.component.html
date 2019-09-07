@@ -14,13 +14,16 @@
     <div class="ae-container-fluid rk-topbar">
       <h1 class="rk-logo">
         <a routerLink="home">{{infoPaginaService.info.titulo}}</a></h1>
-      <nav class="rk-navigation">
-        <ul class="rk-menu">
-          <li routerLinkActive="active" class="rk-menu__item"><a routerLink="home" class="rk-menu__link">Home</a>
-          </li>
-          <li routerLinkActive="active" class="rk-menu__item"><a routerLink="/about" class="rk-menu__link">Sobre Nosotros</a>
-          </li>
-        </ul>
+        <nav class="rk-navigation">
+            <ul class="rk-menu">
+              <li routerLinkActive="active"  class="rk-menu__item">
+                <a routerLink="home" class="rk-menu__link">Inicio</a>
+              </li>
+    
+              <li routerLinkActive="active" class="rk-menu__item">
+                <a routerLink="about" class="rk-menu__link">Contactos</a>
+              </li>
+            </ul>
         <div class="rk-search">
           <input type="text" 
           (keyup.enter)="buscarProducto( txtBuscar.value )"

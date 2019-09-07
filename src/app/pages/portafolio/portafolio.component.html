@@ -52,6 +52,7 @@
       [routerLink]="['/item',producto.cod]"
       class="animated fadeIn rk-item ae-masonry__item"
     >
+    <h2>{{ producto.titulo }}</h2>
       <img src="assets/productos/{{ producto.url }}.jpg" alt="" />
       <div class="item-meta">
         <h2>{{ producto.titulo }}</h2>
@@ -59,4 +60,5 @@
       </div>
     </a>
   </div>
+  
 </section>
